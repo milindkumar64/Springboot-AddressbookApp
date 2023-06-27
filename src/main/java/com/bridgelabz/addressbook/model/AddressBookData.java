@@ -14,7 +14,6 @@ public class AddressBookData {
     String firstName;
     String lastName;
     String city;
-    String state;
     String address;
     int pinCode;
 
