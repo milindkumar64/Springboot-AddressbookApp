@@ -10,7 +10,7 @@ public interface IAddressBookService {
 
     public AddressBookData getAddressBookDataById(int id);
     public AddressBookData createNewContacts(AddressBookDTO addressBookDTO);
-    public AddressBookData updateContacts(AddressBookDTO addressBookDTO);
+    public AddressBookData updateContacts(int id, AddressBookDTO addressBookDTO);
     public void deleteContact(int id);
 
 }
