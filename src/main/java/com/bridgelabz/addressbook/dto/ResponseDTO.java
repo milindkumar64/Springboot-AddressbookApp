@@ -5,12 +5,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-public class AddressBookDTO {
-    String firstName;
-    String lastName;
-    String city;
-    String address;
-    int pinCode;
+@NoArgsConstructor
+public class ResponseDTO {
+
+    String message;
+    Object data;
 }
